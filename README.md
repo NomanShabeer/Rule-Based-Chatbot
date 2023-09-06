@@ -26,7 +26,7 @@ This project demonstrates a chatbot implemented using TensorFlow and NLTK (Natur
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+(https://github.com/NomanShabeer/CodSoft-_Internship-Rule-Based-Chatbot.git)
    cd your-repo
    ```
 
