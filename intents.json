@@ -1,0 +1,101 @@
+{
+    "name": "ChatterBox",
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up?", "how's it going?"],
+            "responses": ["Hello!", "Hey!", "Hi there!", "Greetings!"]
+        },
+        {
+            "tag": "how_are_you",
+            "patterns": ["how are you?", "how's it going?", "are you okay?"],
+            "responses": ["I'm good, what about you?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["bye", "goodbye", "see you later", "farewell", "cya", "take care", "exit"],
+            "responses": ["Goodbye!", "See you later!", "Farewell!", "Take care!", "Until next time!"]
+        },
+        {
+            "tag": "age",
+            "patterns": ["how old are you?", "what's your age?", "age?"],
+            "responses": ["I'm just a computer program, so I don't have an age."]
+        },
+        {
+            "tag": "role",
+            "patterns": ["what is your role?", "what do you do?", "your purpose?"],
+            "responses": ["My role is to assist and provide information. You can ask me questions or chat with me about various topics."]
+        },
+        {
+            "tag": "most_encountered",
+            "patterns": ["what questions do you encounter most?", "common inquiries", "frequently asked questions"],
+            "responses": [
+                "I often receive questions about the weather, jokes, fun facts, and general inquiries. Feel free to ask anything you'd like!"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": ["what's your name?", "who are you?", "can you tell me your name?"],
+            "responses": ["You can call me ChatterBox.", "I'm ChatterBox, your friendly chatbot."]
+        },
+        {
+            "tag": "help",
+            "patterns": ["help", "can you assist me?", "I need help", "what can you do?"],
+            "responses": ["Of course! I can provide information, answer questions, and have a conversation with you."]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["thank you", "thanks a lot", "appreciate it"],
+            "responses": ["You're welcome!", "No problem!", "Glad I could help!"]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["what's the weather like today?", "tell me the weather forecast", "weather report"],
+            "responses": ["I'm sorry, I don't have access to real-time weather data."]
+        },
+        {
+            "tag": "joke",
+            "patterns": ["tell me a joke", "give me a funny joke", "joke of the day"],
+            "responses": [
+                "Sure, here's a joke: Why did the bicycle fall over? Because it was two-tired!"
+            ]
+        },
+        {
+            "tag": "music",
+            "patterns": ["play some music", "recommend a song", "music suggestion"],
+            "responses": ["I can't play music, but I can recommend some great songs!"]
+        },
+        {
+            "tag": "news",
+            "patterns": ["give me the latest news", "news updates", "what's happening in the world?"],
+            "responses": ["I don't have access to real-time news, but you can check a news website for the latest updates."]
+        },
+        {
+            "tag": "fun_fact",
+            "patterns": ["tell me a fun fact", "share an interesting fact", "fun trivia"],
+            "responses": [
+                "Sure, here's a fun fact: Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible!"
+            ]
+        },
+        {
+            "tag": "compliment",
+            "patterns": ["you're great", "you're awesome", "you're amazing"],
+            "responses": ["Thank you! You're pretty awesome too!", "I appreciate the compliment!"]
+        },
+        {
+            "tag": "insult",
+            "patterns": ["you're bad", "you're terrible", "you're useless"],
+            "responses": ["I'm here to help, so if you have any concerns, please let me know how I can improve."]
+        },
+        {
+            "tag": "owner_info",
+            "patterns": ["who is your owner"],
+            "responses": ["My owner is Noman."]
+        },
+        {
+            "tag": "owner_description",
+            "patterns": ["tell me about your owner"],
+            "responses": ["My owner is a dedicated professional with expertise in mechatronics engineering, artificial intelligence (AI), machine learning (ML), and computer vision."]
+        }
+    ]
+}
